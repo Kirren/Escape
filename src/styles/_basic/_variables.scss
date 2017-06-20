@@ -1,0 +1,21 @@
+// Typography
+
+$font-size-base:    12px;
+$line-height-base:  12;
+
+// Colors
+
+$accent-color:  #7690c5;
+$dark-accent:   #23527c;
+$bg-grey:       #fafafa;
+$lightgrey:     #e0e0e0;
+$grey:          #777777;
+$black:         #222222;
+
+$transparent-mask: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,1)));
+$shadow:            -1px 10px 40px -4px rgba(201,201,201,1);
+
+// Movement
+
+$slide:         all .3s ease;
+$slidefast:     all .1s ease-in-out;

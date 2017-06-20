@@ -1,0 +1,36 @@
+@font-face {
+  font-face-name: 'Brandon Grotesque';
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
+  src: url('../fonts/Brandon_reg.otf');
+}
+
+@font-face {
+  font-face-name: 'Brandon Grotesque Light';
+  font-family: 'Brandon Grotesque';
+  font-weight: 100;
+  src: url('../fonts/Brandon_thin.otf');
+}
+
+@font-face {
+  font-face-name: 'Brandon Grotesque Bold';
+  font-family: 'Brandon Grotesque';
+  font-weight: 700;
+  src: url('../fonts/Brandon_bld.otf');
+}
+
+@font-face {
+  font-face-name: 'Brandon Grotesque Medium';
+  font-family: 'Brandon Grotesque';
+  font-weight: 400;
+  src: url('../fonts/Brandon_med.otf');
+}
+
+@font-face {
+  font-face-name: 'Cubano';
+  font-family: 'Cubano';
+  src: url('../fonts/cubano-regular-webfont.ttf');
+}
+
+
+$fa-font-path: '../fonts';

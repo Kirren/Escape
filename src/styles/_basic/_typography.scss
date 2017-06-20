@@ -1,0 +1,60 @@
+body {
+
+  section {
+    padding: 2em;
+    @include phone { padding: 1em; }
+    @include desktop { padding: 5em 0; }
+  }
+
+  h1, h2, h3, h4, h5, p, button, input, .nav-item { font-family: 'Brandon Grotesque', sans-serif; }
+
+  h2, h3, h4, h5, .learn {
+    text-transform: capitalize;
+    font-weight: 100;
+  }
+  h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    @include phone { font-size: 44px; }
+    @include desktop {font-size: 66px; }
+    @include largeDesktop { }
+  }
+
+  h2 {
+    text-transform: capitalize;
+    line-height: 1.25;
+    span { font-weight: 700; }
+    @include phone { font-size: 40px; }
+    @include desktop { font-size: 60px; }
+  }
+
+  h3 {
+    @include phone { }
+  }
+
+  h4 {
+    font-weight: 100;
+    @include phone { font-size: 26px; }
+    @include desktop { font-size: 32px; }
+  }
+
+  h5 {
+    color: $grey;
+    font:{
+      size: 22px;
+      weight: 100;
+    }
+  }
+
+  p {
+    font:{
+      weight: 100;
+      size: 18px;
+    }
+
+    color: $grey;
+    line-height: 1;
+  }
+
+  a:hover { text-decoration: none; }
+}

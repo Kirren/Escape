@@ -1,0 +1,7 @@
+.identity, .clients, .team, .footer {
+  background-color: $bg-grey;
+  @include tablet { width: 100%; }
+  @include desktop { width: initial; }
+}
+
+.headings-wrapper, .team > * { text-align: center; }

@@ -1,0 +1,40 @@
+.icon-plane {
+  background-image: url('../img/paper-plane.png');
+  width: 45px;
+  height: 35px;
+  @include phone { display: none; }
+  @include desktop { display: inline-block; }
+}
+
+.person-icon {
+  background-image: url('../img/person-icon.png');
+}
+
+.browser-icon {
+  background-image: url('../img/browser-icon.png');
+}
+
+.ipad-icon {
+  background-image: url('../img/ipad-icon.png');
+}
+
+.video-icon {
+  background-image: url('../img/video-icon.png');
+}
+
+.star-icon {
+  background-image: url('../img/star-icon.png');
+}
+
+.camera-icon{
+  background-image: url('../img/camera-icon.png');
+}
+
+.icon {
+  background-repeat: no-repeat;
+  background-position: top center;
+  vertical-align: top;
+  border: none;
+}
+
+

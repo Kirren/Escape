@@ -1,0 +1,26 @@
+.team {
+  background-color: $black;
+  color: white;
+  .team-wrapper {
+    padding: 3em 0;
+    .team-text-block {
+      p { margin-bottom: 0; }
+      .name{
+        line-height: 2.8;
+        color: white;
+        font:{
+          weight: 700;
+          size: 18px;
+        }
+      }
+      .position {
+        color: white;
+        font-size: 16px;
+      }
+      .link-block {
+        border: 2px solid white;
+        border-radius: 50%;
+      }
+    }
+  }
+}
