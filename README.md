@@ -1,3 +1,3 @@
 # Escape
 
-https://kirren.github.io/Escape/
+https://kirren.github.io/Escape/public
