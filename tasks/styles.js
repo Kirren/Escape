@@ -6,6 +6,7 @@ const $             = require('gulp-load-plugins')({
 const gulp          = require('gulp');
 const combine       = require('stream-combiner2').obj;
 const reload        = require('browser-sync').reload;
+const bourbon       = require('node-bourbon');
 
 const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'development';
 
@@ -19,11 +20,6 @@ module.exports = function (options) {
             $.sass({
                 sourceMap: true,
                 errLogToConsole: true,
-                /*loadPath: [
-                    './bower_components/bootstrap-sass/assets/stylesheets',
-                    './bower_components/font-awesome/scss',
-                    options.src
-                ],*/
                 includePaths: require('node-bourbon').includePaths
             }).on("error", $.sass.logError),
             $.debug({title: 'sass'}),

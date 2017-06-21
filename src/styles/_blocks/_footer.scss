@@ -1,4 +1,49 @@
-.footer {
+footer {
   background-color: $accent-color;
   color: white;
+  .footer-wrapper {
+    .headings-wrapper {
+      * { margin-bottom: 20px; }
+      text-align: left;
+      h5 { color: white; }
+    }
+    .contacts-wrapper > div {
+      margin-bottom: 20px;
+      .fa {
+        font-size: 29px;
+        line-height: 1;
+      }
+    }
+    .form-block {
+      form {
+        textarea { resize: none; }
+        input, textarea {
+          &::placeholder {
+            color: $grey;
+            font: {
+              family: 'Brandon Grotesque';
+              size: 18px;
+              weight: 100;
+            };
+          }
+          &:focus, &:hover {
+            &::placeholder {
+              color: $lightgrey;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .credits-wrapper > p {
+    color: white;
+    margin: 0;
+    text-align: center;
+    line-height: 22px;
+    font: {
+      weight: 400;
+      size: 16px;
+    }
+  }
 }

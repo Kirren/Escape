@@ -3,23 +3,55 @@
   color: white;
   .team-wrapper {
     padding: 3em 0;
-    .team-text-block {
-      p { margin-bottom: 0; }
-      .name{
-        line-height: 2.8;
-        color: white;
-        font:{
-          weight: 700;
-          size: 18px;
+    .team-block {
+      margin-bottom: 25px;
+      .team-image { @include size(200px); }
+      .team-text-block {
+        p { margin-bottom: 0; }
+        .name{
+          line-height: 2.8;
+          color: white;
+          font:{
+            weight: 700;
+            size: 18px;
+          }
         }
-      }
-      .position {
-        color: white;
-        font-size: 16px;
-      }
-      .link-block {
-        border: 2px solid white;
-        border-radius: 50%;
+        .position {
+          color: white;
+          font-size: 16px;
+        }
+        .links {
+          a {
+            margin: -1px;
+            i {
+              font-size: 28px;
+              line-height: 1.5;
+              border: 2px solid white;
+              border-radius: 50%;
+              width: 46px;
+            }
+            &:hover{
+              color: $black;
+              i {
+                border: none;
+                width: 46px;
+                line-height: 46px;
+              }
+            }
+          }
+          .twit:hover {
+            i { background-color: $accent-color; }
+          }
+          .fb:hover {
+            i { background-color: $accent-color; }
+          }
+          .goog:hover {
+            i { background-color: darkgreen; }
+          }
+          .pin:hover {
+            i { background-color: red; }
+          }
+        }
       }
     }
   }

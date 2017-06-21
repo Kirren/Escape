@@ -6,7 +6,7 @@ body {
     @include desktop { padding: 5em 0; }
   }
 
-  h1, h2, h3, h4, h5, p, button, input, .nav-item { font-family: 'Brandon Grotesque', sans-serif; }
+  h1, h2, h3, h4, h5, p, button, input, .nav-item, .blockquote { font-family: 'Brandon Grotesque', sans-serif; }
 
   h2, h3, h4, h5, .learn {
     text-transform: capitalize;
@@ -56,5 +56,12 @@ body {
     line-height: 1;
   }
 
-  a:hover { text-decoration: none; }
+  .headings-wrapper {
+    margin-bottom: 3em;
+  }
+
+  a:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
 }

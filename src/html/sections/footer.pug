@@ -1,37 +1,38 @@
-footer.footer.container
-  div.footer-wrapper.row
-    div.text-block.col-xs-12.col-md-6
-      div.headings-wrapper
-        h2 Say
-          span  Hello
-        h5 Don’t be shy, drop us an email and say hello! We are a really nice bunch of people :)
-      div.contacts-wrapper.d-flex.flex-wrap
-        div.col-xs-12.col-md-6
-          i.fa.fa-phone.pull-left
-          span (416) 555-0000
-        div.col-xs-12.col-md-6
-          i.fa.fa-envelope.pull-left
-          span hello@escape.com
-        div.col-xs-12.col-md-6
-          i.fa.fa-twitter.pull-left
-          span @escape
-        div.col-xs-12.col-md-6
-          i.fa.fa-facebook.pull-left
-          span facebook.com/escape
-        div.col-xs-12.col-md-6
-          i.fa.fa-google-plus.pull-left
-          span plus.com/escape
-        div.col-xs-12.col-md-6
-          i.fa.fa-pinterest.pull-left
-          span pinterest.com/escape
+footer#contact
+  div.container
+    div.footer-wrapper.row.py-5
+      div.text-block.col-xs-12.col-md-6
+        div.headings-wrapper.container
+          h2 Say
+            span  Hello
+          h5 Don’t be shy, drop us an email and say hello! We are a really nice bunch of people :)
+        div.contacts-wrapper.d-flex.flex-wrap
+          div.col-xs-12.col-md-6
+            i.fa.fa-mobile.pull-left.fa-fw
+            span (416) 555-0000
+          div.col-xs-12.col-md-6
+            i.fa.fa-envelope.pull-left.fa-fw
+            span hello@escape.com
+          div.col-xs-12.col-md-6
+            i.fa.fa-twitter.pull-left.fa-fw
+            span @escape
+          div.col-xs-12.col-md-6
+            i.fa.fa-facebook.pull-left.fa-fw
+            span facebook.com/escape
+          div.col-xs-12.col-md-6
+            i.fa.fa-google.pull-left.fa-fw
+            span plus.com/escape
+          div.col-xs-12.col-md-6
+            i.fa.fa-pinterest-p.pull-left.fa-fw
+            span pinterest.com/escape
 
-    div.form-block.col-xs-12.col-md-6
-      form
-        input.form-control.col-12.mb-2(type="text", placeholder="Your Name *")
-        input.form-control.col-12.mb-2(type="email", placeholder="Your E-mail *")
-        textarea.form-control.col-12.mb-2(rows="5", placeholder="Your Message *")
+      div.form-block.col-xs-12.col-md-6.my-auto
+        form
+          input.form-control.col-12.mb-2(type="text", placeholder="Your Name *")
+          input.form-control.col-12.mb-2(type="email", placeholder="Your E-mail *")
+          textarea.form-control.col-12.mb-2(rows="9", placeholder="Your Message *")
 
-  hr
+    hr
 
-  div.credits-wrapper
-    p © 2014 Escape by FreebiesXpress • Made In Toronto
+    div.credits-wrapper.offset-xs-1.col-xs-10.offset-sm-3.col-sm-6.py-4
+      p © 2014 Escape by FreebiesXpress • Made In Toronto

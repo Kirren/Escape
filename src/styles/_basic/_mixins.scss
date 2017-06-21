@@ -1,25 +1,15 @@
-@mixin placeholder {
-  ::-webkit-input-placeholder {
-    @content;
-  }
-  :-moz-placeholder {
-    @content;
-  }
-  ::-moz-placeholder {
-    @content;
-  }
-  :-ms-input-placeholder {
-    @content;
-  }
-}
-
-
 @mixin phone{
   @include media-breakpoint-up(xs) { @content; }
+}
+@mixin phone-only{
+  @include media-breakpoint-only(xs) { @content; }
 }
 
 @mixin tablet{
   @include media-breakpoint-up(sm) { @content; }
+}
+@mixin tablet-only{
+  @include media-breakpoint-only(sm) { @content; }
 }
 
 @mixin desktop{

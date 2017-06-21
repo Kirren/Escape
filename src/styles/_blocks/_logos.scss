@@ -1,0 +1,13 @@
+.logos {
+  text-align: center;
+  .logo {
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .envato { background-image: url("../img/envato.png") }
+  .wp { background-image: url("../img/wordpress.png") }
+  .tuts { background-image: url("../img/tuts.png") }
+  .micro { background-image: url("../img/microlancer.png") }
+}
